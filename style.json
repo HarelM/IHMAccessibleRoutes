@@ -4,7 +4,7 @@
   "sources": {
     "routes": {
       "type": "geojson",
-      "data": "https://rawcdn.githack.com/HarelM/IHMAccessibleRoutes/master/source.geojson"
+      "data": "https://raw.githack.com/HarelM/IHMAccessibleRoutes/main/source.geojson"
     }
   },
   "sprite": "",
