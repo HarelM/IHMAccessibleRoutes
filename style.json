@@ -31,7 +31,7 @@
       "source": "routes",
       "paint": {
         "line-width": 3,
-        "line-color": "yellow"
+        "line-color": "yellow",
         "line-gap-width": 3
       }
     }
