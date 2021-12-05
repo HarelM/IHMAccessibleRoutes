@@ -24,6 +24,16 @@
         "line-width": 3,
         "line-color": "blue"
       }
+    },
+    {
+      "id": "route-lines-halo",
+      "type": "line",
+      "source": "routes",
+      "paint": {
+        "line-width": 3,
+        "line-color": "yellow"
+        "line-gap-width": 3
+      }
     }
   ],
   "id": "accessible_routes"
