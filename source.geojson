@@ -1,0 +1,15 @@
+{
+  "type" : "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "text": "מצב: מלא - 02.11.2020"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.3143768, 31.3568592]
+      }
+    }
+  ]
+}
