@@ -17,12 +17,12 @@
       "paint": {"background-color": "gray"}
     },
     {
-      'id': 'lines',
-      'type': 'line',
-      'source': 'routes',
-      'paint': {
-        'line-width': 3,
-        'line-color': ['get', 'color']
+      "id": "route-lines",
+      "type": "line",
+      "source": "routes",
+      "paint": {
+        "line-width": 3,
+        "line-color": "blue"
       }
     }
   ],
