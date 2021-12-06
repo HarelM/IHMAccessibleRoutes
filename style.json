@@ -1,12 +1,8 @@
 {
   "version": 8,
   "name": "Accesible Routes",
-  "sources": {
-    "routes": {
-      "type": "geojson",
-      "data": "https://raw.githack.com/HarelM/IHMAccessibleRoutes/main/source.geojson"
-    }
-  },
+   "id": "accessible_routes",
+  "sources": {},
   "sprite": "",
   "glyphs": "https://israelhikingmap.osm.org.il/fonts/{fontstack}/{range}.pbf",
   "layers": [
@@ -17,24 +13,29 @@
       "paint": {"background-color": "gray"}
     },
     {
-      "id": "route-lines",
+      "id": "path_paved",
       "type": "line",
-      "source": "routes",
+      "source": "IHM",
+      "source-layer": "transportation",
+      "filter": [
+        "all",
+        ["==", "surface", "paved"],
+        [
+          "in",
+          "ihm_class",
+          "path",
+          "footway",
+          "cycleway"
+        ]
+      ],
       "paint": {
-        "line-width": 3,
-        "line-color": "blue"
-      }
-    },
-    {
-      "id": "route-lines-halo",
-      "type": "line",
-      "source": "routes",
-      "paint": {
-        "line-width": 3,
-        "line-color": "yellow",
-        "line-gap-width": 3
+        "line-color": "rgba(0, 128, 255, 0.3)",
+        "line-width": 12
+      },
+      "layout": {
+        "line-cap": "round",
+        "line-join": "round"
       }
     }
-  ],
-  "id": "accessible_routes"
+  ]
 }
