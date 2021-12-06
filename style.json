@@ -2,7 +2,12 @@
   "version": 8,
   "name": "Accesible Routes",
    "id": "accessible_routes",
-  "sources": {},
+  "sources": {
+    "IHM": {
+      "type": "vector",
+      "url": "https://israelhiking.osm.org.il/vector/data/IHM.json"
+    },
+  },
   "sprite": "",
   "glyphs": "https://israelhikingmap.osm.org.il/fonts/{fontstack}/{range}.pbf",
   "layers": [
