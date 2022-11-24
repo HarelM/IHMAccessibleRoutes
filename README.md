@@ -1,5 +1,8 @@
 # Accesible routes (hopefully)
 
+This uses the IHM data srouce to present accessible routes, the following overpass query might be needed, but is not in use right now.
+
+
 The geojson source uses the following overpass turbo query exported as geojson:
 ```
 (
